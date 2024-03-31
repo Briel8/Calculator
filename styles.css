@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, rgb(14, 100, 228), rgb(10, 236, 10));
+    /* text-align: center; */
+}
+
+.calculator {
+    width: 500px;
+}
+
+.output {
+    background-color: rgba(0, 0, 0, .75);
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.previous {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: oldlace;
+}
+
+.current {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: oldlace;
+}
+
+.numbers-and-operations {
+
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color:rgba(255, 255, 255, .75);
+    width: 100px;
+    height: 100px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, .9);
+}
